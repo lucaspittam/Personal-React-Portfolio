@@ -14,12 +14,12 @@ const About = () => {
       <div className='about_container'>
         <div className='about_me'>
             <div className="about_me-image">
-              <img src={ME} alt="about "/>
+              <img src={ME} alt="about"/>
             </div>
         </div>
 
-        <div className="about_content">
-          <div className="about_cards">
+        <div className='about_content'>
+          <div className='about_cards'>
             <article className='about_card'>
               <FaAward className='about_icon'/>
               <h5>Experience</h5>
@@ -45,9 +45,7 @@ const About = () => {
              enim nostrum dolorem!
           </p>
 
-          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
-
-
+          <a href='#contact' className='btn btn-primary'>Let's Talk </a>
         </div>
 
       </div>
