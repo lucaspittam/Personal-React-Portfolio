@@ -29,16 +29,23 @@ const About = () => {
             <article className='about_card'>
               <FiUsers className='about_icon'/>
               <h5>Clients</h5>
-              <small> 50+ Globally</small>
+              <small> 20+ Globally</small>
             </article>
 
             <article className='about_card'>
               <VscFolderLibrary className='about_icon'/>
               <h5>Projects</h5>
-              <small> 100+ Completed!</small>
+              <small> 50+ Completed!</small>
             </article>
 
           </div>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem natus perferendis, repellendus 
+            temporibus dolorum tempora corporis ea? Aliquid voluptatibus ducimus dolores quaerat eaque et quas nam
+             enim nostrum dolorem!
+          </p>
+
+          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
 
 
         </div>
