@@ -1,15 +1,22 @@
 .container.testimonials_container {
     width: 40%;
     padding-bottom: 4rem;
+    padding-right: 1rem;
 }
 
 .client_avatar {
-    width: 7rem;
+    display: flex;
+    width: 8rem;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 40%;
     margin: 0 auto 1rem;
     border: .2rem solid var(--color-bg);
+}
+
+.client_avatar img {
+    width: 7rem;
+    height: 8rem;
 }
 
 
@@ -38,6 +45,7 @@
 @media screen and (max-width: 1024px) {
     .container.testimonials_container {
         width: 60%;
+        padding-right: 1rem;
     }
 }
 /* ======================= media query small ==================== */
@@ -45,6 +53,7 @@
 @media screen and (max-width: 600px) {
    .container.testimonials_container {
         width: var(--container-width-sm);
+        padding-right: 1rem;
     }
 
     .client_review {

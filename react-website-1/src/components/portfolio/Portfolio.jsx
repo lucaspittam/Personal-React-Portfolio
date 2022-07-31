@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
@@ -16,12 +16,12 @@ const Portfolio = () => {
       <div className='container portfolio_container'>
         <article className='portfolio_item'>
           <div className="portfolio_item-image">
-            <img src={IMG1} alt='portfolio  1' />
+            <img src={IMG1} alt='portfolio  1'/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Personal Portfolio | React/Node.js</h3>
           <div className="portfolio_item-cta">
              <a href='https://github.com/lucaspittam?tab=repositories' className='btn' target='_blank' rel="noopener noreferrer" >Github</a>
-            <a href='https://github.com/lucaspittam?tab=repositories' className='btn btn-primary'>Live Demo</a>
+            <a href='https://lucaspittam.com' className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>

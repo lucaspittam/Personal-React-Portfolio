@@ -40,9 +40,11 @@ const About = () => {
 
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem natus perferendis, repellendus 
-            temporibus dolorum tempora corporis ea? Aliquid voluptatibus ducimus dolores quaerat eaque et quas nam
-             enim nostrum dolorem!
+          <p>Full-stack developer with a passion for solving problems and a commitment to lifelong learning. Skills in Html, Javascript, React and with the 
+            unique skill set of using creativity and logic to solve comprehensive problems through code. I am motivated to develop responsive websites and applications.<br/><br/>
+             Positioned to provide a unique perspective on how users interact with websites by leveraging a Certificate of Web Development from University of Toronto 
+             and work experience in Brand Development. When not drinking coffee and spending long hours at a computer, I like to stay fit with
+              Mixed Martial arts like Brazilian Jiu Jitsu and Boxing.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk </a>
