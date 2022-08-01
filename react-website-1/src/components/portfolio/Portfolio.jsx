@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
@@ -28,10 +28,10 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG2} alt='portfolio  2' />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Sendmi | Crypto Exchange | React/Solidity</h3>
           <div className="portfolio_item-cta">
-           <a href='https://github.com/lucaspittam?tab=repositories' className='btn' target='_blank' rel="noopener noreferrer" >Github</a>
-           <a href='https://github.com/lucaspittam?tab=repositories' className='btn btn-primary'>Live Demo</a>
+           <a href='https://github.com/lucaspittam/Web3-App-1' className='btn' target='_blank' rel="noopener noreferrer" >Github</a>
+           <a href='https://sendmi.tech' className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
 
